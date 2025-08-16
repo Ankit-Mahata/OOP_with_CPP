@@ -1,7 +1,7 @@
 // structure in C
-#include<iostream>
+// we cannot make functions inside structures in C
+#include<stdio.h>
 #include<string.h>
-using namespace std;
 
 struct student {
     int roll;
@@ -10,9 +10,9 @@ struct student {
 };
 void output(struct student s)
 {
-    cout <<endl<< "Roll: " << s.roll << endl;
-    cout << "Name: " << s.name << endl;
-    cout << "Marks: " << s.marks << endl;
+    printf("\nRoll: %d\n", s.roll);
+    printf("Name: %s\n", s.name);
+    printf("Marks: %.2f\n", s.marks);
 }
 int main()
 {
