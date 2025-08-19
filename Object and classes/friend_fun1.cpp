@@ -1,3 +1,5 @@
+// program to demonstrate the use of friend function
+// friend function can access private and protected members of the class
 #include<iostream>
 using namespace std;
 class vector{
