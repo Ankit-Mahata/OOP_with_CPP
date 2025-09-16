@@ -26,6 +26,6 @@ int main()
     c1.input();
     c2=++++c1;
     c1.output();
-    c2.output();    
+    c2.output();
     
 }
