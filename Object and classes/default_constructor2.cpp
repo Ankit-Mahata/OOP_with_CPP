@@ -15,6 +15,6 @@ class complex{
 };
 int main()
 {
-    complex c;
-    c.showdata();
+    complex c1;
+    c1.showdata();
 }
