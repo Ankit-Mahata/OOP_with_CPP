@@ -1,3 +1,5 @@
+// Program to overload + and * operator to add and multiply two 3*3 matrix (using friend function )
+
 #include<iostream>
 using namespace std;
 class matrix{
