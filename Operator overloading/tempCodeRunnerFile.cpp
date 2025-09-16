@@ -1,5 +1,3 @@
 
-    c3.output();
-    c4.output();
-    
-}
+            for(int j=0; j<3; j++)
+            {
