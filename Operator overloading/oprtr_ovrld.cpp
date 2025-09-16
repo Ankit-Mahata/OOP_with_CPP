@@ -1,3 +1,4 @@
+// to multiply a complex number with a matrix using operator overloading and friend function
 #include<iostream>
 using namespace std;
 class matrix;
