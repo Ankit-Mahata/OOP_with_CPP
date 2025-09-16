@@ -42,7 +42,7 @@ int main()
     c2.print();
     c3.print();
     complex c4;
-    c4=5; // constructor called having one parameter
+    c4=5; // constructor is called having one parameter
     c4.print();
 
 
