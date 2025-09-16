@@ -1,7 +1,7 @@
 //  to polar into cartesian coordinates using normal function in destination class
 #include<iostream>
-#include<math.h>
-#define pi 3.14
+#include<cmath>
+#define pi 3.14159265358979323846
 using namespace std;
 class polar{
 float rad,ang;

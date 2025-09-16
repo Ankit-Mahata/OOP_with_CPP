@@ -17,6 +17,11 @@ class complex{
         real=a;
         imag=b;
     }
+    complex(int x) // paramatized constructor with one parameter
+    {
+        real=x;
+        imag=0;
+    }
     void setdata()
     {
         cout<<"Enter real and imaginary values : ";
@@ -36,5 +41,9 @@ int main()
     c1.print();
     c2.print();
     c3.print();
+    complex c4;
+    c4=5; // constructor called having one parameter
+    c4.print();
+
 
 }
