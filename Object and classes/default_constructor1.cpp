@@ -1,3 +1,4 @@
+//default_constructor
 #include<iostream>
 using namespace std;
 class product
