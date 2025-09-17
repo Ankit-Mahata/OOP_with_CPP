@@ -7,7 +7,6 @@ class celsius{
     celsius(float c=0)
     {cel=c;}
     operator float()    // we can make normal function also;
-    
     {
         float x=1.8*cel+32;
         return x;
