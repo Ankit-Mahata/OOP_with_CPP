@@ -1,3 +1,4 @@
+// to show how to use protected members of base class in derived class
 #include<iostream>
 using namespace std;
 #include<cstring>
