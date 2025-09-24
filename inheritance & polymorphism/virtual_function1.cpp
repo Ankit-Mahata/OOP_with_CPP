@@ -25,8 +25,10 @@ int main()
 {
   animal *an= new animal;
   an->fun();
+  delete an;
   an=new dog;
-  an->fun(); // bark !!
+  an->fun();
+  delete an;
   an=new tiger;
   an->fun();
   delete an;
