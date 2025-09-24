@@ -4,6 +4,7 @@ class dimension
 {
     protected:
     int l,b,h;
+    public:
     virtual void  area()=0;
 };
 class square : public dimension
@@ -33,7 +34,17 @@ class triangle : public dimension
     {b=bd;h=ht;}
     void area()
     {
-        cout<<"Area of triangle = "<<0.5*b*h;
+        cout<<"Area of triangle = "<<0.5*b*h<<endl;
     }
 };
-int main
+int main()
+{
+    square s(4);
+    rectangle r(2,5);
+    triangle t(5,7);
+    dimension *ptr[]={&s,&r,&t};
+    for(int i=0; i<3; i++)
+    {
+        ptr[i]->area();
+    }
+}

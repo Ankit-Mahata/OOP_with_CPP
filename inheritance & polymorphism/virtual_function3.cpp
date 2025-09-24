@@ -33,5 +33,4 @@ int main()
     {
         ptr[i]->attack();
     }
-    delete []ptr;
 }
