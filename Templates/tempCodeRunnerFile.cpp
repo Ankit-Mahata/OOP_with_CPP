@@ -1,0 +1,1 @@
+template funtion overloaded with normal function

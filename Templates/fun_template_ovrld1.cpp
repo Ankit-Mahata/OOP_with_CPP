@@ -1,4 +1,4 @@
-// template funtion overloaded with normal function
+// template function overloaded with normal function
 #include<iostream>
 using namespace std;
 template<class t>
