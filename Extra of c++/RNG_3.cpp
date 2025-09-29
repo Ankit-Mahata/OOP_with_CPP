@@ -1,4 +1,4 @@
-// generating multiple sides if there are multiple dice 
+// Generating multiple sides if there are multiple dice 
 #include<iostream>
 #include<ctime>
 using namespace std;
