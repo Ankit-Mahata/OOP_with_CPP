@@ -1,5 +1,5 @@
 // RNG = random number generator
-// program to generate a random number in any range
+// program to generate a random number 
 #include<iostream>
 #include<ctime>
 using namespace std;
